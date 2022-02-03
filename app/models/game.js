@@ -61,6 +61,7 @@ class Game {
   }
 
   // TODO use for generating random number of games
+  // TODO move to utils folder
   getRandomNumber(min, max) {
     let randomScore = Math.random() * (max - min) + min;
     return Math.round(randomScore);
