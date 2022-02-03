@@ -1,0 +1,20 @@
+{
+  "name": "tennis-game",
+  "version": "1.0.0",
+  "description": "Tennis game challenge",
+  "main": "./app/index.js",
+  "scripts": {
+    "test": "jest ./app/index.spec.js"
+  },
+  "keywords": [
+    "tennis"
+  ],
+  "author": "Ante Penava",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
